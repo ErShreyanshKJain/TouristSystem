@@ -1,0 +1,206 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.tanya.touristsystem.MainActivity">
+
+    <TextView
+        android:id="@+id/textregister"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="20dp"
+        android:text=" PREFERENCES"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="28dp"
+       />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Visit Parks"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_marginLeft="157dp"
+
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/parks"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Watch Sunset"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_marginLeft="130dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/sunset"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Food Places"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_marginLeft="142dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/food"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Shopping "
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_marginLeft="164dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/shopping"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Museum"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_marginLeft="175dp"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:id="@+id/museuem"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Zoo"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="218dp"
+            android:id="@+id/zoo"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Adventure Sports"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="99dp"
+            android:id="@+id/adventure"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Amusement Parks"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="89dp"
+            android:id="@+id/amusement"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="30dp"
+            android:text="Watch Movie"
+            android:textSize="20dp"
+            android:textColor="@android:color/black"/>
+        <CheckBox
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="137dp"
+            android:id="@+id/cinemas"/>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/register"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|bottom"
+        android:layout_marginBottom="15dp"
+        android:background="@color/colorPrimary"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:text="SEARCH"
+        android:textAllCaps="false"
+        android:textSize="18sp" />
+
+
+
+
+</LinearLayout>
