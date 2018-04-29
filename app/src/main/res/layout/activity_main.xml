@@ -31,7 +31,6 @@
             android:textColor="@android:color/black"/>
         <CheckBox
             android:layout_marginLeft="157dp"
-
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:id="@+id/parks"/>
@@ -110,7 +109,7 @@
             android:layout_marginLeft="175dp"
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:id="@+id/museuem"/>
+            android:id="@+id/museum"/>
     </LinearLayout>
 
     <LinearLayout
@@ -147,7 +146,7 @@
             android:layout_width="40dp"
             android:layout_height="40dp"
             android:layout_marginLeft="99dp"
-            android:id="@+id/adventure"/>
+            android:id="@+id/adventure" />
 
     </LinearLayout>
     <LinearLayout
@@ -183,12 +182,12 @@
         <CheckBox
             android:layout_width="40dp"
             android:layout_height="40dp"
-            android:layout_marginLeft="137dp"
-            android:id="@+id/cinemas"/>
+            android:layout_marginLeft="138dp"
+            android:id="@+id/movies"/>
     </LinearLayout>
 
     <Button
-        android:id="@+id/register"
+        android:id="@+id/search"
         android:layout_width="300dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center|bottom"
@@ -199,8 +198,5 @@
         android:text="SEARCH"
         android:textAllCaps="false"
         android:textSize="18sp" />
-
-
-
 
 </LinearLayout>

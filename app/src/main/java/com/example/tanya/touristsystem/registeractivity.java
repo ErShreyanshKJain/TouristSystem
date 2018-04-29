@@ -20,10 +20,10 @@ import com.google.firebase.database.FirebaseDatabase;
 
 public class registeractivity extends AppCompatActivity {
     EditText name ,emailid ,signuppassword,mobileno;
-   FirebaseAuth mauth;
+    FirebaseAuth mauth;
     FirebaseUser user;
     DatabaseReference mDatabase;
-   public Input input;
+    public Input input;
     String email,fullname,password,mobile;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
