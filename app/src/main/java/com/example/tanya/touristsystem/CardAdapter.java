@@ -9,16 +9,17 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import java.util.ArrayList;
+import com.squareup.picasso.Picasso;
 
+import java.util.List;
 
 
 public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
 
-    private ArrayList<Place> placeList;
+    private List<Place> placeList;
     private Context context;
 
-    public CardAdapter(ArrayList<Place> placeList, Context context) {
+    public CardAdapter(List<Place> placeList, Context context) {
         this.placeList = placeList;
         this.context = context;
     }
@@ -35,7 +36,9 @@ public class CardAdapter extends RecyclerView.Adapter<CardAdapter.ViewHolder>{
         final Place place = placeList.get(position);
 
         holder.head.setText(place.getName());
-
+        Picasso.get()
+                .load(place.getImageUrl())
+                .into(holder.image);
 
     }
 

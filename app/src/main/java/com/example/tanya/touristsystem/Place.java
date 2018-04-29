@@ -2,23 +2,23 @@ package com.example.tanya.touristsystem;
 
 public class Place {
     private String name;
-    //private String imageUrl;
+    private String imageUrl;
 
-    public Place(String name) {
+    public Place(String name,String imageUrl) {
         this.name = name;
-        //this.imageUrl = imageUrl;
+        this.imageUrl = imageUrl;
     }
 
     public Place(){
         name = "";
-        //imageUrl = "";
+        imageUrl = "";
     }
 
     public String getName() {
         return name;
     }
 
-    /*public String getImageUrl() {
-        //return imageUrl;
-    }*/
+    public String getImageUrl() {
+        return imageUrl;
+    }
 }
