@@ -55,14 +55,14 @@ public class MainActivity extends AppCompatActivity {
                     places.add(p2);
                 }
                 if (shopping.isChecked()) {
-                    Place p1 = new Place("Janpath and Tibetan Market","https://www.indiatoday.in/india/delhi/story/janpath-market-demonetisation-rs-500-rs-1000-atms-shut-352168-2016-11-15");
-                    Place p2 = new Place("Dilli Haat","http://www.101trips.in/2017/08/dilli-haat.html");
+                    Place p1 = new Place("Janpath and Tibetan Market","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/shopping%2Fjanpath%26tibetian_market.jpg?alt=media&token=e99977ec-5f7f-48b1-83b4-327375d2e179");
+                    Place p2 = new Place("Dilli Haat","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/shopping%2Fdili_haat_shopping.jpg?alt=media&token=deece949-6229-4586-981f-68c885974924");
                     places.add(p1);
                     places.add(p2);
                 }
                 if (museum.isChecked()) {
-                    Place p1 = new Place("National Gandhi Museum","https://www.tripadvisor.in/Attraction_Review-g304551-d311624-Reviews-National_Gandhi_Museum-New_Delhi_National_Capital_Territory_of_Delhi.html\n");
-                    Place p2 = new Place("National Gallery of Modern Art","http://www.artculturefestival.in/national-gallery-modern-art-delhi/");
+                    Place p1 = new Place("National Gandhi Museum","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/museum%2Fnational_gandhi_museum.jpg?alt=media&token=5649a31c-b2ee-4f60-91c4-186bc2c143f8");
+                    Place p2 = new Place("National Gallery of Modern Art","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/museum%2FNational_gallery_of_modern_art.jpg?alt=media&token=9b6725a0-8109-4c4a-a810-3bbb619eba6f");
                     places.add(p1);
                     places.add(p2);
                 }
@@ -72,19 +72,19 @@ public class MainActivity extends AppCompatActivity {
                 }
                 if (amusement.isChecked()) {
                     Place p1 = new Place("Worlds of Wonder","https://www.youtube.com/watch?v=8ItHJAJr2bY");
-                    Place p2 = new Place("Adventure Island","https://littleapp.in/deals/adventure-island-rohini-sec-10-delhi--mc-o0208990\n");
+                    Place p2 = new Place("Adventure Island","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/amusement%20parks%2Fworlds_of_wonder.jpg?alt=media&token=ca60cb49-c40e-4fc0-9d9a-d10f4070ae78");
                     places.add(p1);
                     places.add(p2);
                 }
                 if (adventure.isChecked()){
-                    Place p1 = new Place("Rock Climbing","https://www.thrillophilia.com/cities/new-delhi/tags/rock-climbing");
-                    Place p2 = new Place("Flyboy Air Safari","https://www.thrillophilia.com/tours/flyboy-air-safari-delhi");
+                    Place p1 = new Place("Rock Climbing","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/adventure%20sports%2Frock_climbing.jpg?alt=media&token=cc987d9f-c850-4c87-9edf-a081ecdc0fad");
+                    Place p2 = new Place("Flyboy Air Safari","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/adventure%20sports%2Fflyboy_air_safari.jpg?alt=media&token=bf585555-6a93-4136-9bcd-ef590b85933a");
                     places.add(p1);
                     places.add(p2);
                 }
                 if (movies.isChecked()){
-                    Place p1 = new Place("PVR Plaza Cinema","https://www.hindustantimes.com/business-news/pvr-eyes-100-million-visitors-annually-in-next-two-years/story-eNNlxcelOHxvQv1fu1EAyI.html");
-                    Place p2 = new Place("PVR Saket"," https://www.livemint.com/Companies/UjW3j1eZExRlYE1FowerLO/PVR-earmarks-up-to-Rs-250-crore-capex-for-FY17.html");
+                    Place p1 = new Place("PVR Plaza Cinema","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/cinemas%2Fpvr_plaza.jpg?alt=media&token=065537ea-e095-42f6-a76c-fbbcb022abdf");
+                    Place p2 = new Place("PVR Saket","https://firebasestorage.googleapis.com/v0/b/touristsystem-57bed.appspot.com/o/cinemas%2Fpvr_saket.jpg?alt=media&token=96d4eb78-beba-4a6e-bd7a-5555376b764b");
                     places.add(p1);
                     places.add(p2);
                 }

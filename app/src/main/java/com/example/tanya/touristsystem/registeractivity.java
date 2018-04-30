@@ -25,13 +25,13 @@ public class registeractivity extends AppCompatActivity {
     DatabaseReference mDatabase;
     public Input input;
     String email,fullname,password,mobile;
-    Button register = (Button) findViewById(R.id.register);
+    Button register;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registeractivity);
         input = new Input();
-
+        register = (Button) findViewById(R.id.register);
         mauth = FirebaseAuth.getInstance();
         mDatabase = FirebaseDatabase.getInstance().getReference("users");
 
